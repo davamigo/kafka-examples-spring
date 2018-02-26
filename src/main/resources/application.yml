@@ -1,0 +1,11 @@
+kafka:
+  bootstrap-servers: "127.0.0.1:9092"
+  topic:
+    first_topic: "first_topic"
+  consumer:
+    group:
+      id1: "spring_latch"
+      id2: "spring_ack"
+
+server:
+  port: 8080
